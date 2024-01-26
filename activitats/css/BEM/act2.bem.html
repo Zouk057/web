@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 2 BEM</title>
+
+    <style>
+        
+        #comments-section {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            align-items: center;
+        }
+
+        .comment {
+            margin-bottom: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="comments-section">
+        
+        <h2>Afegir Comentari</h2>
+        
+            <label>Comentari:</label>
+            <textarea class="comment" rows="4" required></textarea>
+            <label for="username">Usuari:</label>
+            <input type="text"required>
+            <input type="submit" value="Publicar Comentari">
+        
+    </div>
+
+</body>
+
+</html>
