@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto Subrayado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .highlight {
+            background-color: rgba(255, 255, 0, 0.3); /* Fondo amarillo semitransparente */
+            padding: 2px; /* Espaciado interno */
+            border-bottom: 2px solid #ff0; /* Subrayado amarillo sólido */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Texto Subrayado</h1>
+        
+        <!-- Párrafo con strong y clase para subrayado -->
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Ut in <strong class="highlight">venenatis</strong> urna. 
+            Quisque auctor justo vel metus cursus, nec convallis urna volutpat.
+        </p>
+
+    </div>
+
+</body>
+</html>
