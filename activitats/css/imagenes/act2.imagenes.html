@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 2 Imagenes</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        main {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .background-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            z-index: -1;
+        }
+
+        section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: #f4f4f4;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        li {
+            margin: 10px;
+        }
+
+      a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <main>
+        <img class="background-image" src="../../html/imatges/places-images/jpg/tarjeta.jpg">
+
+        <section>
+            <h1>Anas Zokri</h1>
+            <p>Programador Web</p>
+
+            <nav>
+                <ul>
+                    <li><a href="../../html/tablas/act3.tablas.html">Curriculum Vitae</a></li>
+                    <li><a href="https://www.linkedin.com/inscaparrella">LinkedIn</a></li>
+                    <li><a href="https://twitter.com/inscaparrella">Twitter</a></li>
+                    <li><a href="mailto:azokri@inscaparrella.cat">Email</a></li>
+                    
+                </ul>
+            </nav>
+        </section>
+    </main>
+
+</body>
+</html>
