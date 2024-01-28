@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 1 Padding</title>
+
+    <style>
+        body {
+            background-color: rgb(252, 233, 211);
+            margin: 0;
+            font-family: Arial;
+        }
+
+        .cabezera {
+            display: flex;
+            margin: 5rem;
+        }
+        
+        img {
+            height: 400px;
+            width: 400px;
+            
+        }
+
+        .texto {
+            flex: 1;
+            padding-right: 10rem;
+        }
+
+        h1 {
+            margin-bottom: 1rem;
+        }
+
+        .planes {
+            display: flex;
+            margin: 2rem 0;
+            justify-content: center;
+        }
+
+        .planes p {
+            margin-right: 2rem;
+        }
+
+        
+        .plan_botton, .suscripcion_botton {
+            background-color: rgb(44, 152, 167);
+            color: white;
+            font-size: 1rem;
+            padding: 1rem;
+           
+        }
+
+        footer {
+            background-color: rgb(101, 194, 194);
+            margin-top: 5rem;
+            padding: 0.5rem;
+            text-align: center;
+        }
+     
+    </style>
+
+</head>
+
+<body>
+
+    <div class="cabezera">
+        <div class="texto">
+            <h1>Ponte mano a la obra y aumenta las ventas</h1>
+            <p>Consigue que tus clientes interactúen <br> y haz crecer tu negocio con la<br> plataforma de marketing avanzada<br> pero fácil de usar de Mailchimp</p>
+        </div>
+        <img src="../../html/imatges/places-images/png/bussiness.png">
+    </div>
+
+    <div class="planes">
+        <p><a class="suscripcion_botton">Suscribete</a></p>
+        <p><a audio class="plan_botton">Comprar plan</a></p>
+    </div>
+
+    <footer> <p>Mailchimp ha sido adquirido por intuit. Nuestro cofundador y CEO compartió la noticia con nuestros clientes. Léela <a href="">aquí</a> en inglés</p> </footer>
+</body>
+</html>
