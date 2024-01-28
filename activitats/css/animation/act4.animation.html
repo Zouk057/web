@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Activitat 4 Animation </title>
+
+  <style>
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+    @keyframes giro-flecha {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(-360deg);
+      }
+    }
+
+    .rellotge {
+      width: 200px;
+      height: 200px;
+      border: 10px solid black;
+      border-radius: 50%;
+      position: relative;
+    }
+
+    .flecha {
+      position: absolute;
+      width: 4px;height: 100px;
+      background-color: red;
+      transform-origin: 50% 100%;
+      top: 0%;left: 50%;
+      animation: giro-flecha 60s linear infinite;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="rellotge">
+    <div class="flecha"></div>
+  </div>
+
+</body>
+</html>
