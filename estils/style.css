@@ -27,11 +27,11 @@ body {
   section {
     padding: 20px;
     background-color: #e9b44c;
-    color: black;
+    color: #1c110a;
   }
   
   footer {
-    background-color: black;
+    background-color: #1c110a;
     color: #e4d6a7;
     text-align: center;
     padding: 1em;
@@ -68,8 +68,9 @@ body {
     cursor: pointer;
 }
 
-    .boton-esbos:hover {
+.boton-esbos:hover {
     background-color: #70a750;
+}
 
     .xarxes-socials {
         display: flex;
@@ -94,4 +95,4 @@ body {
     html {
         scroll-behavior: smooth;
         }
-    }
+    
