@@ -1,0 +1,98 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+  
+  header {
+    background-color: #1c110a;
+    color: #e4d6a7;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #e4d6a7;
+  }
+  
+  section {
+    padding: 20px;
+    background-color: #e9b44c;
+    color: #1c110a;
+  }
+  
+  footer {
+    background-color: #1c110a;
+    color: #e4d6a7;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  .img {
+    max-width: 150px; 
+  }
+  .img_class01 {
+    max-width: 300px;
+  }
+
+  .button {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #9b2915; 
+    color: #e4d6a7; 
+    border-radius: 5px;
+  }
+
+  .button:hover {
+    background-color: #50a2a7;
+}
+  .boton-esbos {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #3498db; 
+    color: #fff; 
+    border: 1px solid black; 
+    border-radius: 4px; 
+    cursor: pointer;
+}
+
+    .xarxes-socials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .xarxes-socials img {
+        max-width: 30px;
+        height: auto;
+        margin: 0 5px;
+    }
+
+    .p {
+        font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    font-style: italic;
+    }
+
+    html {
+        scroll-behavior: smooth;
+        }
+    
