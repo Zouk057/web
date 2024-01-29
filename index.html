@@ -1,9 +1,114 @@
 <!DOCTYPE html>
-<HTML>
-  <head>
-    <title>Hola món</title>
-  </head>
-  <body>
-    <h1>Hola mundo, soc el Anas !</h1>
-  </body>  
-</HTML>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estils/style.css">
+    <title>Portfoli Personal</title>
+</head>
+<body>
+    <header>
+        <h1>El Meu Portfoli</h1>
+        <nav>
+            <ul>
+                <li><a href="#inici">Inici</a></li>
+                <li><a href="#sobre-jo">Sobre Jo</a></li>
+                <li><a href="#activitats">Activitats</a></li>
+                <li><a href="#contacte">Contacte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inici">
+        <h2>-Benvingut al meu Portfoli</h2>
+        <p>En aquesta pàgina trobaràs informació sobre mi i les meves activitats.</p>
+    </section>
+
+    <section id="sobre-jo">
+        <h2>Sobre Jo</h2>
+        <img class="img" src="/activitats/html/imatges/places-images/png/anas.png" alt="Anas Zokri">
+        <p class="p">¡Bones! Soc l'Anas Zokri, programador i dissenyador web.</p>
+  <center>
+    <h2>Estudis</h2>
+    <img class="img_class01" src="/activitats/html/imatges/places-images/jpg/ilustracio_programacio.jpg" alt="ilustracio_programacio">
+       <p class="p">Sóc estudiant d'Informàtica del Cicle Formatiu de Grau Superior en Desenvolupament d'Aplicacions Multiplataforma (DAM).<br>
+       Estic enfocat a adquirir coneixements en diferents llenguatges de programació i tecnologies modernes.</p>
+
+ </section>
+    <section id="activitats">
+        <h2>Activitats</h2>
+        <p class="p">Aquí trobem les activitats HTML i CSS realitzades</p>
+        <div>
+            <h3>HTML</h3>
+            <a href="/activitats/activitats_html.html" target="_blank">
+            <img class="img" src="/activitats/html/imatges/places-images/jpg/Html5.png" alt="Activitats HTML">
+
+            <a href="/activitats/activitats_html.html" class="button" target="_blank">Activitats HTML</a>
+        </div>
+        <div>
+            <h3>CSS</h3>
+            <a href="/activitats/activitats_css.html" target="_blank">
+            <img class="img" src="/activitats/html/imatges/places-images/jpg/CSS3.png" alt="Activitats CSS">
+
+            <a href="/activitats/activitats_css.html" class="button" target="_blank">Activitats CSS</a>
+        </div>
+    </section>
+
+    <section><center>
+      <h2>Esbos Pagina Web</h2>
+      <a href="https://www.figma.com/file/701nDjJugVrfejx112HAhZ/Untitled?type=design&node-id=0%3A1&mode=design&t=RcjIc1NWCXabtOxx-1" target="_blank">
+        <img class="img_class01" src="/activitats/html/imatges/places-images/png/esbos.png" alt="Esbos Pagina Web"></a><br>
+    <a href="https://www.figma.com/file/701nDjJugVrfejx112HAhZ/Untitled?type=design&node-id=0%3A1&mode=design&t=RcjIc1NWCXabtOxx-1" class="boton-esbos" target="_blank">Esbos</a></center>
+</section>
+    <section id="contacte">
+        <h2>Formulari de Contacte</h2>
+        <p>Pots utilitzar aquest formulari de contacte per comunicar-te</p>
+
+        <form>
+            <fieldset>
+                <legend><strong>Formulari de Contacte</strong></legend>
+
+                <p>
+                    <label for="nom">Nom:</label>
+                    <input type="text" id="nom" name="nom">
+                </p>
+
+                <p>
+                    <label for="correu">Correu electrònic:</label>
+                    <input type="email" id="correu" name="correu">
+                </p>
+
+                <p>
+                    <label for="missatge">Missatge:</label>
+                    <textarea id="missatge" name="missatge"></textarea>
+                </p>
+
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+      <table class="xarxes-socials">
+          <tr>
+              <td>
+                  <a href="https://twitter.com/InsCaparrella" target="_blank" title="Twitter">
+                      <img src="/activitats/html/imatges/places-images/png/twitter-logo-twitter-icon-transparent-free-free.png" alt="Twitter">
+                  </a>
+              </td>
+              <td>
+                  <a href="https://www.instagram.com/inscaparrella/" target="_blank" title="Instagram">
+                      <img src="/activitats/html/imatges/places-images/jpg/instagramlogo.jpg" alt="Instagram">
+                  </a>
+              </td>
+              <td>
+                  <a href="https://www.facebook.com/inscaparrella" target="facebook.com" title="Facebook">
+                      <img src="/activitats/html/imatges/places-images/png/facebook_16423.png" alt="Facebook">
+                  </a>
+              </td>
+          </tr>
+      </table>
+      <p>&copy; 2024 Anas Zokri</p>
+  </footer></center>
+</body>
+</html>
