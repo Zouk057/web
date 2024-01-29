@@ -2,11 +2,7 @@ body {
     font-family: Arial;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-
-
-  
   header {
     background-color: #1c110a;
     color: #e4d6a7;
@@ -31,11 +27,11 @@ body {
   section {
     padding: 20px;
     background-color: #e9b44c;
-    color: #1c110a;
+    color: black;
   }
   
   footer {
-    background-color: #1c110a;
+    background-color: black;
     color: #e4d6a7;
     text-align: center;
     padding: 1em;
@@ -72,6 +68,9 @@ body {
     cursor: pointer;
 }
 
+    .boton-esbos:hover {
+    background-color: #70a750;
+
     .xarxes-socials {
         display: flex;
         justify-content: center;
@@ -95,4 +94,4 @@ body {
     html {
         scroll-behavior: smooth;
         }
-    
+    }
